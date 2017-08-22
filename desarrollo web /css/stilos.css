@@ -1,0 +1,23 @@
+
+h2 {
+	color: orange;
+	text-transform: uppercase;
+	background-color: red;
+	padding: 20px; 
+}
+p {
+	font-size: 10px;
+}
+/*-------------------------------------esto es un comectario
+h3{
+	color:blue;
+}
+----------------------------------------*/
+.blue{	
+	color: blue;
+}
+/*------------------------------selector con classe*/
+#titulo.titulo{
+	color: black;
+	font-size: 60px;
+}

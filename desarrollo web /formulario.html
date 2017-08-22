@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>formulario y campos </title>
+</head>
+<body>
+	<h2><i>Creando Formularios</i></h2><!--los formularios empiezan aqui-->
+	<form class="formulario" action="" id="">
+		<fieldset>
+			<legend>Tus datos</legend><!--esta etiqueta enmarca los formularios-->
+			<label for="nombre">Nombre</label><!--esto pone las casillas para el formulario-->
+			<input type="text" name="nombre" id="nombre" placeholder="tu nombre" autocomplete="on" required="on" >
+			<br><br><br>
+			<label for="apellido">Apellido</label>
+			<input type="text" name="apellido" id="apellido" placeholder="tu apellido" autocomplete="on" required="on">
+			<br>
+			<br>
+			<br>
+			<label for="Sexo">Sexo</label><br><!--radio sirve para elegir casilla-->
+			<input type="radio" name="Sexo" value="Hombre" checked="on">Hombre<br>
+			<input type="radio" name="Sexo" value="Mujer">Mujer<br>
+			<input type="radio" name="Sexo" value="Otro">Otro<br>
+				<br>		
+				<br>
+				<label>Fecha de nacimiento</label><!--tipo de fecha-->
+				<input type="date" name="Fecha">
+				<br>	
+				<br>
+				<label>fecha exacta</label><!--tipo de fecha-->
+				<input type="datetime-local" name="fecha">	
+				<br>		
+		</fieldset>
+
+		<br><br><br>
+		<fieldset>
+			<legend>Informacion sobre tu curso</legend><!--este sirve como seleccionador de opcion-->
+			<label for="turno">Turno:</label>
+				<select id="turno" class="turno" name="turno">
+					<option value="matutino">matutino</option>
+					<option value="vespertino" selected>vespertino</option>
+					<option value="nocturno">nocturno</option>
+				</select>
+				<br>
+				<br>s
+				<label>Que curso te gustaria que agregaramos</label><!--esta barra es mas moderna de tipo seleccion-->
+				<input list="propuesta" name="encuesta">
+				<datalist id="propuesta">
+					<option value="jQuery">
+					<option value="aplicaciones web">
+					<option value="angularS">
+					<option value="css4">
+					<option value="notepad++">
+				</datalist>
+				<br>
+				<br>
+				<label>Elige tus cursos</label>
+				<br>
+				<input type="checkbox" value="php">PHP<br>
+				<input type="checkbox" value="html5">HTML5<br>
+				<input type="checkbox" value="css">CSS<br>
+				<input type="checkbox" value="mysql">MySQL<br>
+				<input type="checkbox" value="jQuery">jQuery<br>
+				<br>
+				<label>fecha del mes que deseas empezar</label><!--opciones de tiempo-->
+				<input type="month" name="fecha">	
+				<input type="time" name="fecha">
+				<input type="week" name="fecha">
+				<br>	
+				<br>
+				<label>cuanto sabes de html5</label>	
+				<input type="range" name="puntuaje" min="0" max="10" required="on">
+				<br>	
+				<br>	
+				<br>
+				<label>personas que vienen contigo</label>	
+				<input type="number" name="puntuaje" min="1" max="5" required="on">
+				<br>	
+
+
+
+		</fieldset>
+
+		<br>
+		<fieldset>
+			<legend>usuario y password</legend>
+			<label>usuario</label>
+			<input type="text" name="usuario" required="on">
+			<label>password</label>
+			<input type="password" name="password" required="on">
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Extra</legend><!--esto es para poner color-->
+			<label>Las primeras 10 personas reciben un color</label>
+			<input type="color" name="color">
+		</fieldset>
+		<br>
+		<button type="reset">Borrar</button><!--dos formas de poner botones-->
+		<input type="submit" value="enviar">
+	</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
