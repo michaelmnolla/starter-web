@@ -1,0 +1,17 @@
+.titulo{
+	color: orange;
+	font-size: 70px;
+	border: 20px
+}
+.multimedia.video{
+	font-size: 50px;
+}
+body{
+	background:#A4A4A4;
+} 
+fieldset{
+	background-color: #FE9A2E
+}
+legend{
+	color: #0000FF;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>pág web</title>
+			<link rel="stylesheet" type="text/css" href="css/estilos.css">				
+		</head>
+		<body>
+			<center>
+			 	<h1 class="titulo">Hybrid Technology</h1>
+			</center>
+			<div class="informacion">
+				<fieldset>
+				<legend>Tu Información</legend>
+				<center>
+					<i><p>Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></i>
+				</center>
+				</fieldset>
+				<br>
+			</div>
+			<div class="multimedia video">
+				<center>
+					<video width="750" src="contenido/video/codigo.mp4" controls="on" autoplay="on"></video>
+				</center>
+			</div>
+			<div class="desarrollo">
+				<fieldset>
+				<legend>Preparacion del curso</legend>
+				<center><h2 class="titulo2">Tu futuro es lo primero</h2></center>
+				<center>
+					<i><p>Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></i>
+				</center>
+				</fieldset>
+			</div>
+			<form>
+			<div class="encuesta">
+				<br>
+				<br>
+				<fieldset>
+					<legend>Rellana los campos</legend><br>
+					<label for="Apellido">Tu apellido</label>
+					<input type="text" name="Tu nombre" placeholder="Tu nombre" autocomplete="on" required>
+					<br>
+					<br>
+					<label for="Apellido">Tu apellido</label>
+					<input type="text" name="Tu apellido" placeholder="Tu apellido" autocomplete="on" required>
+					<br>
+					<br>
+					<label for="Sexo">Sexo</label><br>
+					<input type="radio" name="Sexo" value="Hombre" checked="on">Hombre<br>
+					<input type="radio" name="Sexo" value="Mujer">Mujer<br>
+					<input type="radio" name="Sexo" value="Otros">Otros<br>
+					<br>
+					<label>Fecha de nacimiento</label><!--tipo de fecha-->
+					<input type="date" name="Fecha">
+				</fieldset>
+			</div>
+			<br>
+			<br>
+			<div class="tipo curso">
+				<fieldset>
+					<legend>Tipos de curso</legend><br>
+					<label>Que curso te gustaria que agregaramos</label><!--esta barra es mas moderna de tipo seleccion-->
+					<input list="propuesta" name="encuesta">
+					<datalist id="propuesta">
+						<option value="jQuery">
+						<option value="aplicaciones web">
+						<option value="angularS">
+						<option value="css4">
+						<option value="notepad++">
+					</datalist>
+				</fieldset>
+			</div>
+			<br>
+			<br>
+			<div class="usuario">
+				<fieldset>
+					<legend>usuario y password</legend><br>
+					<label>usuario</label>
+					<input type="text" name="usuario" placeholder="usuario" required="on">
+					<label>password</label>
+					<input type="password" name="password" placeholder="password" required="on">
+				</fieldset>
+				<br>
+				<br>
+				<button type="reset">Borrar</button><!--dos formas de poner botones-->
+				<input type="submit" value="enviar">
+			</div>
+			</form>
+		</body>
+	</html>
